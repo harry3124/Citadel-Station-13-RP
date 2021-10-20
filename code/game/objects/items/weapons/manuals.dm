@@ -5,6 +5,28 @@
 	due_date = 0 // Game time in 1/10th seconds
 	unique = 1   // 0 - Normal book, 1 - Should not be treated as normal book, unable to be copied, unable to be modified
 
+/obj/item/book/manual/wiki_linked
+	name = "Wiki Linked Book"
+	author = "Buggy Coders"
+	title = "Unknown Wiki Book"
+	/// wiki page
+	var/wiki_page
+
+/obj/item/book/manual/wiki_linked/Initialize(mapload)
+	. = ..()
+	dat = {"
+
+		<html><head>
+		</head>
+
+		<body>
+		<iframe width='100%' height='97%' src="[CONFIG_GET(string/wiki_page_root)][wiki_page]&printable=yes&remove_links=1" frameborder="0" id="main_frame"></iframe>
+		</body>
+
+		</html>
+
+		"}
+
 /obj/item/book/manual/engineering_construction
 	name = "Station Repairs and Construction"
 	icon_state ="bookEngineering"
@@ -284,6 +306,26 @@
 
 		"}
 
+/obj/item/book/manual/engineering_hacking
+	name = "Hacking"
+	icon_state ="bookHacking"
+	author = "Engineering Encyclopedia"		 // Who wrote the thing, can be changed by pen or PC. It is not automatically assigned
+	title = "Hacking"
+
+/obj/item/book/manual/engineering_hacking/Initialize(mapload)
+	. = ..()
+	dat = {"
+
+		<html><head>
+		</head>
+
+		<body>
+		<iframe width='100%' height='97%' src="[config_legacy.wikiurl]Hacking&printable=yes&remove_links=1" frameborder="0" id="main_frame"></iframe>
+		</body>
+
+		</html>
+
+		"}
 
 /obj/item/book/manual/engineering_singularity_safety
 	name = "Singularity Safety in Special Circumstances"
@@ -1370,7 +1412,7 @@
 		</head>
 
 		<body>
-		<iframe width='100%' height='97%' src="[config_legacy.wikiurl]Standard_Operating_Procedure&printable=yes&remove_links=1" frameborder="0" id="main_frame"></iframe>
+		<iframe width='100%' height='97%' src="[CONFIG_GET(string/wiki_page_root)]Standard_Operating_Procedure&printable=yes&remove_links=1" frameborder="0" id="main_frame"></iframe>
 		</body>
 
 		</html>
