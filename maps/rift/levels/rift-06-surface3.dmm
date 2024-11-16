@@ -21729,6 +21729,7 @@
 	},
 /obj/structure/table/woodentable,
 /obj/item/tool/wrench,
+/obj/item/material/ashtray/glass,
 /turf/simulated/floor/carpet/bcarpet,
 /area/crew_quarters/bar)
 "jPH" = (
