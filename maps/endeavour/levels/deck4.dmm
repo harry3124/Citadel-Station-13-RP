@@ -2829,13 +2829,6 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/endeavour/hallway/d4porthall)
-"czG" = (
-/obj/machinery/camera/network/outside{
-	dir = 8
-	},
-/obj/structure/lattice,
-/turf/space,
-/area/space)
 "czL" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -9599,10 +9592,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/atmos)
-"iFj" = (
-/obj/spawner/window/low_wall/borosillicate/reinforced/firelocks,
-/turf/simulated/floor/plating,
-/area/endeavour/hallway/d4aftmaint)
 "iFl" = (
 /obj/effect/floor_decal/borderfloorblack,
 /obj/structure/disposalpipe/segment{
@@ -19743,10 +19732,6 @@
 	},
 /turf/simulated/floor/tiled/monowhite,
 /area/engineering/drone_fabrication)
-"spM" = (
-/obj/spawner/window/low_wall/borosillicate/reinforced/firelocks,
-/turf/simulated/floor/plating,
-/area/engineering/portnacelle)
 "spY" = (
 /obj/structure/cable/green{
 	icon_state = "2-4"
@@ -29910,7 +29895,7 @@ jNg
 psc
 psc
 psc
-jfz
+psc
 psc
 psc
 psc
@@ -29935,7 +29920,7 @@ psc
 jfz
 psc
 psc
-jfz
+qhx
 psc
 psc
 qhx
@@ -30104,7 +30089,7 @@ jNg
 psc
 jNg
 jNg
-psc
+jNg
 jNg
 jNg
 jNg
@@ -30298,7 +30283,7 @@ jNg
 psc
 jNg
 jNg
-psc
+jNg
 jNg
 gGf
 wTU
@@ -30686,7 +30671,7 @@ jNg
 psc
 jNg
 jNg
-psc
+jNg
 jNg
 mhf
 tTf
@@ -30880,7 +30865,7 @@ bXA
 psc
 jNg
 jNg
-psc
+jNg
 jNg
 mhf
 mkm
@@ -31074,7 +31059,7 @@ saA
 psc
 jNg
 jNg
-psc
+jNg
 jNg
 mhf
 tTf
@@ -31103,8 +31088,8 @@ psc
 jNg
 jNg
 jNg
-vAC
-uUN
+psc
+kNH
 heJ
 heJ
 qpm
@@ -31268,7 +31253,7 @@ saA
 psc
 jNg
 jNg
-psc
+jNg
 jNg
 mhf
 mkm
@@ -31490,7 +31475,7 @@ psc
 psc
 psc
 psc
-psc
+vAC
 uUN
 uUN
 heJ
@@ -31656,7 +31641,7 @@ saA
 saA
 jNg
 jNg
-psc
+jNg
 jNg
 nRY
 fvC
@@ -31850,7 +31835,7 @@ brM
 saA
 saA
 jNg
-psc
+jNg
 jNg
 jNg
 mhf
@@ -32044,7 +32029,7 @@ pBO
 hrF
 saA
 jNg
-psc
+jNg
 jNg
 jNg
 mhf
@@ -32238,7 +32223,7 @@ kdA
 kzq
 saA
 saA
-psc
+jNg
 jNg
 jNg
 mhf
@@ -32431,7 +32416,7 @@ saA
 kdA
 brM
 bkY
-spM
+saA
 psc
 psc
 psc
@@ -32458,7 +32443,7 @@ wTU
 oNF
 psc
 psc
-iFj
+uUN
 oKm
 iXz
 hHV
@@ -32625,8 +32610,8 @@ saA
 krH
 pGV
 brM
-spM
-czG
+saA
+bXA
 jNg
 jNg
 mhf
@@ -32652,7 +32637,7 @@ uhm
 fvC
 jNg
 psc
-iFj
+uUN
 kkQ
 iXz
 hHV
